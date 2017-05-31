@@ -13,7 +13,7 @@ describe('Siskel', function() {
       rating: 10
     }
   ];
-
+ 
   beforeEach(function() {
     sinon.spy(Movies.prototype, 'sort');
     collection = new Movies(datum);
